@@ -1,0 +1,26 @@
+Staging Area:area in between working directory and local repository
+
+we can send any number of files into staging area
+
+****working to staging we can decide and send files which we need only->we use add comand here 
+
+**** staging to local we can send all files which are in staging area->we use commit command here
+
+***local-remote we use push command
+
+git add git2.txt(it will added to staging area)
+
+** git commit -m "comiting ciode and example"(it will transfer files from staging to local repository)
+
+***instal   github ->sign into github
+ **goto yourrepository tab->click on new->enter name git-tuts-create repository
+** paste this comand in cmd ::git remote add origin https://github.com/jhansi2728/git-tutss.git
+
+**now push file to remote ::git push -u origin master->after this comand our files appear in remote repository (go to github refresh page and our files will be visible)
+
+
+CREATE Branch:::
+checkout command is used to jump btween branches
+-b is used to create new branch
+ 
+****git checkout -b "copy1" (this comand will create new branch copy1 and transfer untracked files to this branch)
